@@ -1,0 +1,10 @@
+
+item {
+    id: 1
+    name: 'Car'
+}
+
+item {
+    id: 2
+    name: 'Pool'
+}

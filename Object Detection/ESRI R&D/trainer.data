@@ -1,0 +1,5 @@
+classes= 2 
+train  = /content/yolo/custom/train.txt  
+valid  = /content/yolo/custom/valid.txt  
+names  = /content/yolo/custom/objects.names  
+backup = /content/darknet/backup/

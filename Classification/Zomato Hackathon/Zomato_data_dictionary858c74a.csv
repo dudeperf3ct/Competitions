@@ -1,0 +1,37 @@
+created_at,Order creation Time in UTC
+city,City
+res_id,Restaurant ID
+pickup_locality,Locality of Restaurant
+pickup_latitude,Latitude of Restaurant
+pickup_longitude,Longitude of Restaurant
+drop_locality,Locality of Customer
+drop_latitude,Customer Latitude
+drop_longitude,Customer Longitude
+total_amount,Order Value
+driver_id,Driver ID
+shipment_creation_time,"Shipment creation time, order is created into a shipment before assigning driver"
+device_acknowledge_at,Order broadcast on driver device time in UTC
+device_acknowledge_latitude,Latitude of order broadcast on driver device
+device_acknowledge_longitude,Longitude of order broadcast on driver device
+device_acknowledge_location_update_time,Last location updated time of order broadcast on driver device in UTC
+driver_assigned_at,Driver acceptance time in UTC
+driver_assigned_latitude,Driver acceptance latitude
+driver_assigned_longitude,Driver acceptance longitude
+driver_assigned_location_update_time,Last location update time before driver accepting order in UTC
+reached_shop_at,Driver reached restaurant time in UTC
+reached_shop_latitude,Driver latitude on marking reached restaurant
+reached_shop_longitude,Driver longitude on marking reached restaurant
+reached_shop_location_update_time,Last location update time before driver marking reached restaurant in UTC
+shipped_at,Driver marked order as picked time in UTC
+shipped_latitude,Driver marked pickup up at latitude
+shipped_longitude,Driver marked pickup up at longitude
+shipped_location_update_time,Last location update time before driver marking order picked up in UTC
+reached_customer_at,Driver marked reached customer time in UTC
+reached_customer_latitude,Driver marked reached customer at latitude
+reached_customer_longitude,Driver marked reached customer at longitude
+reached_customer_location_update_time,Last location update time before driver marking reached customer in UTC
+complete_at,Driver marked order delivered time in UTC
+complete_latitude,Driver marked order delivered at latitude
+pickup_to_drop_location_km,"Google road distance between pickup lat,long and delivered lat,long"
+pickup_to_drop_location_aerial_km,"Aerial distance between pickup lat,long and delivered lat,long"
+state,"Order state Delivered, Cancelled, Return (Cancel post order pickup), "
