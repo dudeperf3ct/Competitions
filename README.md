@@ -1,3 +1,3 @@
 # Competitions
 
-This repo contains code for various competitions grouped together into various categories.
+This repo contains code of various competitions grouped together into various categories.
